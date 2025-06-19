@@ -1,33 +1,24 @@
-# Arquivos de Ambiente Virtual
-# Nunca envie sua pasta de ambiente virtual
 venv/
 .venv/
 env/
 .env/
 */activate
 
-# Arquivos de cache e bytecode do Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Pasta de configurações do PyCharm
-# Guarda configurações do seu projeto localmente
 .idea/
 
-# Arquivos de dependências e pacotes
 *.egg-info/
 dist/
 build/
 wheels/
 *.egg
 
-# Arquivos de configuração sensíveis
-# Crie um arquivo .env.example para mostrar a estrutura, mas nunca envie o .env real
 .env
 *.env
 config.ini
 
-# Logs
 *.log
