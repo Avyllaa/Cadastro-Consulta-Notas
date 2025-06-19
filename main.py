@@ -1,4 +1,3 @@
-# main.py (integrado com banco de dados e interface original da Luiza)
 import customtkinter as ctk
 from db import Database
 from tkinter import messagebox
@@ -437,7 +436,6 @@ centralizar(login, 350, 450)
 login.title("Tela de Login")
 login.configure(fg_color="#8bbf7a")
 
-# inserindo campos para o login
 # label de título
 bvindo = ctk.CTkLabel(login, text="Log In", font=ctk.CTkFont(family="Helvetica", size=28, weight='bold'),
                       text_color="#fcfcf2")
